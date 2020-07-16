@@ -1,0 +1,15 @@
+@import './item.scss';
+@import './pagination.scss';
+@import './header.scss';
+
+.background {
+  background-color: #EFF8FE;
+  height: 100vh;
+}
+
+.title {
+  margin: 2rem 0;
+  text-align: center;
+  color: #6B6C6B;
+  font-size: 20px;
+}

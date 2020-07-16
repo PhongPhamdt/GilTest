@@ -1,0 +1,13 @@
+.pagination--custom {
+  display: flex;
+  float: right;
+  a {
+    color: #ADB1B5;
+    text-decoration: none;
+    margin-left: 4px;
+  }
+
+  .active {
+    color: #0B2F64;
+  }
+}

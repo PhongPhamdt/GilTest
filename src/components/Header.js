@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const Header = () => {
+const Header = () => {
   return (
-    <div>
-      HELLO
-    </div>
+    <header className="header__title shadow--custom">
+      <div className="col-4"><div className="back__button">&lt;</div></div>
+      <div className="col-8">Forum 2 Developing New Drivers...</div>
+    </header>
   )
 }
+
+export default Header

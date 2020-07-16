@@ -1,0 +1,53 @@
+.card--custom {
+  border: none;
+  margin-bottom: 2rem;
+  
+  .inset--shadow {
+    display: flex;
+    justify-content: center;
+
+    .avatar {
+      vertical-align: middle;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      background-color: #6CD9EA;
+      position: relative;
+    }
+
+    .custom {
+      position: absolute;
+      vertical-align: middle;
+      width: 4rem;
+      height: 4rem;
+      box-shadow: inset 0px 4px 5px 0 #000000;
+      border-radius: 50%;
+      opacity: 40%;
+      top: 0
+    }
+  }
+
+  .meta {
+    padding-left: 0;
+
+    .name {
+      color: #0B2F64;
+      font-size: 20px;
+    }
+  
+    .icon {
+      color: #F6D42C;
+      font-size: 25px;
+    }
+
+    .info {
+      margin-left: 1rem;
+      color: #6B6C6B;
+      font-size: 20px;
+    }
+  }
+
+  .subtitle {
+    color: #0B2F64;
+  }
+}
